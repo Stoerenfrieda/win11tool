@@ -1,0 +1,26 @@
+# You can find your software and windows features here https://winstall.app/
+# Default Application
+Discord.Discord
+Valve.Steam
+EpicGames.EpicGamesLauncher
+Ubisoft.Connect
+
+# Additional Software
+#RARLab.WinRAR
+#Bitwarden.Bitwarden
+#Voicemod.Voicemod
+#Loupedeck.Loupedeck
+#TheBrowserCompany.Arc
+#SteelSeries.GG
+
+# Development
+#Microsoft.VisualStudioCode
+#OpenJS.NodeJS
+#Yarn.Yarn
+#python.Launcher
+#Git.Git
+
+# Customize Windows
+#RamenSoftware.Windhawk
+#Microsoft.PowerToys
+

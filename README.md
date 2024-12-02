@@ -1,5 +1,9 @@
-# Information:
+# How to Use:
+    1. Open softwarelist.txt to review the list of programs you want to install or exclude.
+    2. Open applist.txt and remove the # symbol in front of any app you want to UNINSTALL by default.
 
+
+# Information:
 ## Adding .reg Files
 You can add additional .reg files to the `./regfiles/other` folder.
 
@@ -31,9 +35,8 @@ Add this ID to `softwarelist.txt` to install the software via winget.
 ### Example
 For instance, if you want to add "Visual Studio Code", you would add the following line to `softwarelist.txt`:
 
-                                        # Visual Studio Code
-                                        Microsoft.VisualStudioCode
-
+# Visual Studio Code
+Microsoft.VisualStudioCode
 
 
 

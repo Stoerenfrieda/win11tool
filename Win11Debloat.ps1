@@ -120,14 +120,12 @@ function Uninstall-Bloatware {
             } catch {
                 Write-Host "Failed to uninstall $app." -ForegroundColor Red
             }
-
-            # Warten auf Bestätigung mit Enter
-            Write-Host ""
-            Write-Host "Bloatware successfully uninstalled. Press Enter to return to the main menu."
-            Write-Host " Putrefy, rot, spoil, and fester..." -ForegroundColor DarkRed
-
-            $null = $host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")  # Warten auf Enter-Taste
         }
+        # Warten auf Bestätigung mit Enter
+        Write-Host ""
+        Write-Host "Bloatware successfully uninstalled. Press Enter to return to the main menu."
+        Write-Host " Putrefy, rot, spoil, and fester..." -ForegroundColor DarkRed
+        $null = $host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")  # Warten auf Enter-Taste
     } else {
         Write-Host "The applist.txt file does not exist. Please create the file with the list of apps." -ForegroundColor Red
     }
